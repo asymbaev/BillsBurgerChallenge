@@ -14,9 +14,18 @@ public class Main {
 
 
 
-        Burger burger = new Burger("regular", "cheese", 4.00);
-        burger.addToppings("BACON", "CHEESE", "MAYO");
-        burger.printItem();
+//        Burger burger = new Burger("regular", "cheese", 4.00);
+//        burger.addToppings("BACON", "CHEESE", "MAYO");
+//        burger.printItem();
+//        MealOrder regularMeal = new MealOrder();
+//        regularMeal.addBurgerToppings("BACON", "CHEESE", "MAYO");
+//        regularMeal.setDrinkSize("LARGE");
+//        regularMeal.printItemizedList();
+
+        MealOrder secondMeal = new MealOrder("turkey", "7-up", "chili");
+        secondMeal.addBurgerToppings("LETTUCE", "CHEESE", "MAYO");
+        secondMeal.setDrinkSize("SMALL");
+        secondMeal.printItemizedList();
 
 
     }
